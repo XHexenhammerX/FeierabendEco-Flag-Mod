@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2404016072
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: feflagmod
+      Dependencies: {}
+    Info_1:
+      Name: flagmod
+      Dependencies: {}

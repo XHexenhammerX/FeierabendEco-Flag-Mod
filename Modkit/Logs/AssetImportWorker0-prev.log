@@ -1,0 +1,469 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'de' Physical Memory: 32691 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/ECO Modding/ServerUnity/FE_FLAG_MOD
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56734
+Successfully changed project path to: G:/ECO Modding/ServerUnity/FE_FLAG_MOD
+G:/ECO Modding/ServerUnity/FE_FLAG_MOD
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 85.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/ECO Modding/ServerUnity/FE_FLAG_MOD/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6044 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005462 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\ECO Modding\ServerUnity\FE_FLAG_MOD\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\ECO Modding\ServerUnity\FE_FLAG_MOD\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (400ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (111.7 KB). Loaded Objects now: 3940.
+Memory consumption went from 195.8 MB to 195.7 MB.
+Total: 3.557200 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.969800 ms  DeleteObjects: 0.164900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1166.251600 seconds.
+  path: Assets/ECOFLAG/FLAG.fbx
+  artifactKey: Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ECOFLAG/FLAG.fbx using Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fefc3a1f68803dbc7602b3186c43f0') in 0.162104 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\ECO Modding\ServerUnity\FE_FLAG_MOD\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\ECO Modding\ServerUnity\FE_FLAG_MOD\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (78.9 KB). Loaded Objects now: 3954.
+Memory consumption went from 199.9 MB to 199.8 MB.
+Total: 3.665800 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.105900 ms MarkObjects: 3.122000 ms  DeleteObjects: 0.107300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3644.353201 seconds.
+  path: Assets/Flag
+  artifactKey: Guid(9d37a5b9c85eb9f44867c2cff998b4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag using Guid(9d37a5b9c85eb9f44867c2cff998b4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7732751ac7ef26f4bf3bc4b4932fab7') in 0.012711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.130975 seconds.
+  path: Assets/Flags
+  artifactKey: Guid(a87aeee1f53232249864b3335c90ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags using Guid(a87aeee1f53232249864b3335c90ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f24e71fb2e6e9fd9402bfbdd7d5a1dc') in 0.005702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.000995 seconds.
+  path: Assets/Flags/GolgFlags
+  artifactKey: Guid(c8579968b09b17a44b16f1d863363170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/GolgFlags using Guid(c8579968b09b17a44b16f1d863363170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d52ac0354f698876e0a8c5abe81396') in 0.005259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.791267 seconds.
+  path: Assets/Flags/MetalFlag
+  artifactKey: Guid(1b78ae538c0a9b04bb81be5fb16df2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/MetalFlag using Guid(1b78ae538c0a9b04bb81be5fb16df2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2745d3d9fb9f2154784e1fdce0516c3a') in 0.005220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.538234 seconds.
+  path: Assets/Flags/GoldFlag
+  artifactKey: Guid(c8579968b09b17a44b16f1d863363170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/GoldFlag using Guid(c8579968b09b17a44b16f1d863363170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cd9dd6fc687cc9f844ffe12352069b') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.333620 seconds.
+  path: Assets/Flags/GoldFlag/Flag_Albedo.png
+  artifactKey: Guid(277f69b052306744a9b78e5051ca6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/GoldFlag/Flag_Albedo.png using Guid(277f69b052306744a9b78e5051ca6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a230c343ba28e74577acf78cf7d412b') in 0.126003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.651163 seconds.
+  path: Assets/Flags/IronGoldlFlag
+  artifactKey: Guid(1b78ae538c0a9b04bb81be5fb16df2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag using Guid(1b78ae538c0a9b04bb81be5fb16df2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ad852f2aac1310a4a3718601d12b8a') in 0.005732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.692043 seconds.
+  path: Assets/Flags/IronGoldlFlag/Flag_2_Albedo.png
+  artifactKey: Guid(65cfa4f6d17d3ab4e970a273aefef02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag/Flag_2_Albedo.png using Guid(65cfa4f6d17d3ab4e970a273aefef02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b47fd782b4ddf3e8f93e883df3850e') in 0.019543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flags/IronGoldlFlag/Flag_2_Normal.png
+  artifactKey: Guid(1f1b035a732da3d40a84a9abb77066d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag/Flag_2_Normal.png using Guid(1f1b035a732da3d40a84a9abb77066d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d30a9d2053371af24573a5cb4b8687') in 0.012375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.250138 seconds.
+  path: Assets/Flags/FlagIcon
+  artifactKey: Guid(46b2598eb3ded0345858e6678eadf3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagIcon using Guid(46b2598eb3ded0345858e6678eadf3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f682f6a7d063fbc6ffd89985eb86e') in 0.005508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 326.238713 seconds.
+  path: Assets/Flags/FlagIcon/COFFlag.png
+  artifactKey: Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagIcon/COFFlag.png using Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03b86c14834a0a00dcd688b489d8966') in 0.014814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.312198 seconds.
+  path: Assets/Flags/FlagIcon/COFFlag.png
+  artifactKey: Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagIcon/COFFlag.png using Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a019228e8c6b748a14f908453dd1ecdd') in 0.011687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.406939 seconds.
+  path: Assets/Flag/background.png
+  artifactKey: Guid(fca183bbfb9a6da4c87e29320502eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/background.png using Guid(fca183bbfb9a6da4c87e29320502eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33db4eeb1d212521611972cfbda04654') in 0.011549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.406986 seconds.
+  path: Assets/Flag/background.png
+  artifactKey: Guid(fca183bbfb9a6da4c87e29320502eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/background.png using Guid(fca183bbfb9a6da4c87e29320502eb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4685641b82a2e1c75a3c1b3795052b12') in 0.030462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.804773 seconds.
+  path: Assets/Flags/FlagIcon/COFFlag.png
+  artifactKey: Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagIcon/COFFlag.png using Guid(dcd1711638d63c14880fc61d7c4c682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0332a4cb0b85881cd98573a31c706f36') in 0.037437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.943282 seconds.
+  path: Assets/Flags/FlagIcon/EcoFlag.png
+  artifactKey: Guid(4dc87615ad34d174d97d95fe30b3143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/FlagIcon/EcoFlag.png using Guid(4dc87615ad34d174d97d95fe30b3143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d4832a995f53ee320d4bc84af64f9d') in 0.033646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.956818 seconds.
+  path: Assets/Flags/IronGoldlFlag/COFFlag_Albedo.png
+  artifactKey: Guid(e48f335f0bcd29240a4aa42e147d1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag/COFFlag_Albedo.png using Guid(e48f335f0bcd29240a4aa42e147d1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f158357604154a9fe165abaa539372a') in 0.013582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.884786 seconds.
+  path: Assets/Flags/IronGoldlFlag/Flag_2_Normal.png
+  artifactKey: Guid(1f1b035a732da3d40a84a9abb77066d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag/Flag_2_Normal.png using Guid(1f1b035a732da3d40a84a9abb77066d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76a9d9aa41627694f4ed5d0f08d7fd') in 0.033549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.276189 seconds.
+  path: Assets/Flags/RedwoodGoldFlag/Flag_Albedo.png
+  artifactKey: Guid(277f69b052306744a9b78e5051ca6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/RedwoodGoldFlag/Flag_Albedo.png using Guid(277f69b052306744a9b78e5051ca6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3365291ff7ce7eb6a11739aabef4a71c') in 0.013758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.324443 seconds.
+  path: Assets/Flags/RedwoodGoldFlag/Flag_Normal.png
+  artifactKey: Guid(53a5136359d274540b3267736bad4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/RedwoodGoldFlag/Flag_Normal.png using Guid(53a5136359d274540b3267736bad4e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87c908550d9cceb79721b25abc5cb49') in 0.017441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.458215 seconds.
+  path: Assets/Scenes/FEFLAGMOD.unity
+  artifactKey: Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FEFLAGMOD.unity using Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7a536dacb890e0ff69d8ddfda69811') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.132944 seconds.
+  path: Assets/Scenes/FEFLAGMOD.unity
+  artifactKey: Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FEFLAGMOD.unity using Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4e00c10dababece136c949399542d6') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.616785 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.006508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.561953 seconds.
+  path: Assets/Scenes/FEFLAGMOD.unity
+  artifactKey: Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FEFLAGMOD.unity using Guid(bda9d747cbb64cf4a845e52ea5beb978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3293df3415c7f740c1a1a296e2793c36') in 0.002098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.380105 seconds.
+  path: Assets/Flag/FLAG.fbx
+  artifactKey: Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/FLAG.fbx using Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea85379348c37c9fd7e89d5003f8a08a') in 0.063601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 479.550558 seconds.
+  path: Assets/Flag/FLAG.fbx
+  artifactKey: Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/FLAG.fbx using Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b6db17816b4d7011a6bb3544baea1a') in 0.041888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.673244 seconds.
+  path: Assets/Flag/FLAG.fbx
+  artifactKey: Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/FLAG.fbx using Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c33d0b84fbf4be3a82bbc8dd39be9b2') in 0.025542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.289235 seconds.
+  path: Assets/Flag/FLAG.fbx
+  artifactKey: Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/FLAG.fbx using Guid(85b319f0739c3474e8d195bf6a6003fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08edee6c722e87e9882108c63b5896c9') in 0.028310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.422497 seconds.
+  path: Assets/Flag/Flag_Animationcontroller.controller
+  artifactKey: Guid(b0df251ca59c5c240a18fed87ac0938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flag/Flag_Animationcontroller.controller using Guid(b0df251ca59c5c240a18fed87ac0938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79340dde2217dd5eefeca1a10238d676') in 0.008553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.035456 seconds.
+  path: Assets/Flags/IronGoldlFlag/COFFLag_MAT.mat
+  artifactKey: Guid(64ed81c5e31dcbe4f94de7024d06bf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flags/IronGoldlFlag/COFFLag_MAT.mat using Guid(64ed81c5e31dcbe4f94de7024d06bf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5702de56e45a6c487f6b8f9c14cf3114') in 0.032523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 363.655954 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-dark.png
+  artifactKey: Guid(bcc2167ce63c6264b9c1295e97bec6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-dark.png using Guid(bcc2167ce63c6264b9c1295e97bec6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962b5c534e9b251939a012bcbe7bba13') in 0.022766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009022 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-light@2x.png
+  artifactKey: Guid(c5b20b1351db04e44b3baeba4679c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-light@2x.png using Guid(c5b20b1351db04e44b3baeba4679c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b764b49f4ba13f11cc9d396e437ab65e') in 0.024762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EcoModKit/ThirdParty/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7428a3973909c0c4fb6582f35a662747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EcoModKit/ThirdParty/DOTween/Editor/Imgs/Footer.png using Guid(7428a3973909c0c4fb6582f35a662747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0907834eb057603a731fef4dc7de537') in 0.022299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-light.png
+  artifactKey: Guid(33c1613cec3e57243baaa6b3dba6fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/edited-file-light.png using Guid(33c1613cec3e57243baaa6b3dba6fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f25a7540ca327694b48855876af2446') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.593315 seconds.
+  path: Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Albedo_F.png
+  artifactKey: Guid(fd520167b4451d64d856ae1bbc9e012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Albedo_F.png using Guid(fd520167b4451d64d856ae1bbc9e012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe26050ea965258d70dcff5d7adbc0d') in 0.023892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Normals.png
+  artifactKey: Guid(0433da0384342e44fbd752ab1486f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Normals.png using Guid(0433da0384342e44fbd752ab1486f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ff98c872fd5ec3c310c6e13ecfa0f9') in 0.022512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062127 seconds.
+  path: Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Specular.png
+  artifactKey: Guid(3005e9c2a0c3e9347944cb0598454c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EcoModKit/Assets/Food/HandsModel/FPArms_Specular.png using Guid(3005e9c2a0c3e9347944cb0598454c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e4b892cf1e8eef745ddcb7f063b537') in 0.017517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png
+  artifactKey: Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png using Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f0e187fceb38d356b6c2407115c260') in 0.022001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477617 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png
+  artifactKey: Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png using Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf52372aced25ded7f0d7479e4508e8') in 0.019861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedoverlay@2x.png
+  artifactKey: Guid(74ef721fef79c44489d4e3edb0ab0c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedoverlay@2x.png using Guid(74ef721fef79c44489d4e3edb0ab0c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28200792dfe66b7d949bd176f9a91227') in 0.021603 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
